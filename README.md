@@ -1,12 +1,30 @@
-# React + Vite
+ Blog Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blog application where users can register, log in, create, edit, and delete blog posts. Built using **React** (frontend) and **Node.js/Express** (backend) with **MongoDB** as the database.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User authentication (register/login/logout)
+- Create, read, update, delete (CRUD) blog posts
+- View blogs by user
+- Profile management with edit and delete options
+- Responsive UI built with React and Tailwind CSS
+- JWT-based secure routes
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React
+- React Router dom
+- Tailwind CSS
+- Axios
+-React-Icons
+-material ui
+-Jwt decoed
+
+
+
+
+
+
+
