@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://server-enuk.onrender.com';
 
 // User Authentication
 export const loginUser = async (userData) => {
