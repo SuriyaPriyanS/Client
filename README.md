@@ -21,6 +21,7 @@ A full-stack blog application where users can register, log in, create, edit, an
 -React-Icons
 -material ui
 -Jwt decoed
+-React-Hook-From
 
 
 
