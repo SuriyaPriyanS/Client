@@ -178,7 +178,7 @@ const BlogEdited = () => {
     setIsSubmitting(true);
     
     try {
-      console.log('Updating blog data:', formData);
+      // console.log('Updating blog data:', formData);
       const response = await updateBlog(blogId, formData);
       toast.success(`Blog "${response.blog?.title || formData.title}" updated successfully!`);
       

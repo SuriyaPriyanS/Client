@@ -42,26 +42,26 @@ const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   const onSubmit = async (data) => {
-    console.log('Form data to be submitted:', data); // Debug log
+   
     try {
-      // Ensure all fields have values and trim whitespace
+     
       const formData = {
         name: data.name.trim(),
         email: data.email.trim(),
         password: data.password,
       };
 
-      // Check if any field is empty after trimming
+     
       if (!formData.name || !formData.email || !formData.password) {
         toast.error('All fields are required');
         return;
       }
 
-      console.log('Form data to be submitted:', formData); // Debug log
+     
 
-      // Send the data to the API
+     
       const result = await registerUser(formData);
-      console.log('API response:', result); // Debug log
+      // console.log('API response:', result); // Debug log
 
       toast.success('Registration successful! Redirecting to login...');
 

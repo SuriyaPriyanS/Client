@@ -121,9 +121,9 @@ const CreateBlog = () => {
     e.preventDefault();
     const token = localStorage.getItem('token');
     const decodedToken = jwtDecode(token);
-    console.log('Decoded Token:', decodedToken);
+    // console.log('Decoded Token:', decodedToken);
     const userId = decodedToken.id;
-    console.log(userId , 'user id');
+    // console.log(userId , 'user id');
     setFormData((prev) => ({
       ...prev,
       userId,
@@ -148,7 +148,7 @@ const CreateBlog = () => {
     setIsSubmitting(true);
 
     try {
-      console.log('Submitting blog data:', formData);
+      // console.log('Submitting blog data:', formData);
 
       const response = await createdBlog(formData);
       toast.success(`Blog "${response.blog?.title || formData.title}" created successfully!`);
