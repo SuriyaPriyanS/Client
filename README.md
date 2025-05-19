@@ -23,6 +23,9 @@ A full-stack blog application where users can register, log in, create, edit, an
 -Jwt decoed
 -React-Hook-From
 
+## Password 
+Reguler Express in used
+
 
 
 
